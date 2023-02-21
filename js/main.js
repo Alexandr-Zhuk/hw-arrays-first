@@ -11,11 +11,11 @@ sex.innerHTML = reGender.join('');
 
 const addName = () => {
     if(sex.value === 'male'){
-        names[personName.value] = '<img src="../images/man.png">';
+        names[personName.value] = '<img src="./../images/man.png">';
     }else if(sex.value === 'female'){
-        names[personName.value] = '<img src="../images/wooman.png">';
+        names[personName.value] = '<img src="./../images/wooman.png">';
     }else{
-        names[personName.value] = '<img src="../images/something.png">';
+        names[personName.value] = '<img src="./../images/something.png">';
     }
     
     personName.value = '';
